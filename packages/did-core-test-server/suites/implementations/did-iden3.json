@@ -26,7 +26,12 @@
     },
     "application/did+json": {
       "didDocumentDataModel": {
-        "representationSpecificEntries": {}
+        "representationSpecificEntries": {
+          "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://schema.iden3.io/core/jsonld/auth.jsonld"
+          ]
+        }
       },
       "representation": "{\"@context\":[\"https://www.w3.org/ns/did/v1\",\"https://schema.iden3.io/core/jsonld/auth.jsonld\"],\"id\":\"did:iden3:polygon:main:wiK2iTWdJLY9KTVJAjmASeUobGaCCS8gJK9MMYMCf\",\"verificationMethod\":[{\"id\":\"did:iden3:polygon:main:wiK2iTWdJLY9KTVJAjmASeUobGaCCS8gJK9MMYMCf#state-info\",\"type\":\"Iden3StateInfo2023\",\"controller\":\"did:iden3:polygon:main:wiK2iTWdJLY9KTVJAjmASeUobGaCCS8gJK9MMYMCf\",\"stateContractAddress\":\"80002:0x624ce98D2d27b20b8f8d521723Df8fC4db71D79D\",\"published\":false}]}",
       "didDocumentMetadata": {},
